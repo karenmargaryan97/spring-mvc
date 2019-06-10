@@ -39,7 +39,6 @@ public class User implements UserDetails {
     @NotNull(message = "Fullname is required")
     private String fullname;
 
-
     private String street;
     private String city;
     private String state;
